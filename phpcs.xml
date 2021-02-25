@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset>
+    <file>src</file>
+    <file>routes</file>
+    <file>resources</file>
+
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <arg name="report" value="full"/>
+    <arg name="colors"/>
+    <arg value="p"/>
+    <arg value="n"/>
+
+    <ini name="memory_limit" value="128M"/>
+
+    <rule ref="PSR2">
+        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
+        <exclude name="Generic.Files.LineLength"/>
+    </rule>
+</ruleset>
