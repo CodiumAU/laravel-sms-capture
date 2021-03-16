@@ -115,6 +115,8 @@
             padding: 0.5rem 0.75rem;
             margin: 0.25rem 0;
             overflow-wrap: break-word;
+            white-space: pre-wrap;
+            word-break: break-word;
         }
 
         div.body div.message div.message-timestamp {
