@@ -1,10 +1,13 @@
 {
     "name": "codium/laravel-sms-capture",
-    "type": "project",
+    "type": "library",
     "description": "Captures outgoing SMS notifications",
     "keywords": [
-        "framework",
-        "laravel"
+        "laravel",
+        "notifications",
+        "sms",
+        "nexmo",
+        "vonage"
     ],
     "license": "MIT",
     "require": {
