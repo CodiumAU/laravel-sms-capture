@@ -31,4 +31,4 @@ Caught notifications will be cached in your browsers local storage and you can c
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [LICENCE](LICENSE) for more information.
