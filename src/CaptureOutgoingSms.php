@@ -29,6 +29,12 @@ class CaptureOutgoingSms
                 OutgoingSmsCaptured::dispatch($event->notifiable->name, trim($message->content), (new DateTime)->format('d/m/Y H:i'));
 
                 return false;
+            case 'vonage':
+                $message = $event->notification->toVonage($event->notifiable);
+
+                OutgoingSmsCaptured::dispatch($event->notifiable->name, trim($message->content), (new DateTime)->format('d/m/Y H:i'));
+
+                return false;
             default:
                 return true;
         }
